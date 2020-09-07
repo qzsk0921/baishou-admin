@@ -1,0 +1,24 @@
+
+// theme color
+$color-primary: #232f3e;
+// navbar
+// $navBg: #232f3e;
+
+// sidebar
+$menuText: #ffffff;
+$menuBg:#232f3e;
+$menuActiveText:#232f3e;
+$menuActiveBg: #ffffff;
+$menuHover:#ffffff;
+
+$subMenuActiveText:#232f3e;
+$subMenuBg:#232f3e;
+$subMenuHover:#ffffff;
+
+$sideBarWidth: 210px;
+
+:export {
+    menuText: $menuText;
+    menuActiveText: $menuActiveText;
+    menuActiveBg: $menuActiveBg;
+}

@@ -1,0 +1,6 @@
+export {default as Information} from './Information'
+export {default as DetailInterface} from './Detail-interface'
+export {default as Banner} from './Banner'
+export {default as PlayerAdvertisement} from './Player-advertisement'
+export {default as VideoList} from './Video-list'
+export {default as PlayInterface} from './Play-interface'

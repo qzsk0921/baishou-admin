@@ -1,0 +1,19 @@
+@import './main-mixin.scss';
+@import './mixin.scss';
+
+#app {
+    .container {
+        height: 100%;
+        overflow: auto;
+        @include scrollbar-none;
+        @include createBtn;
+        @include optionSelect;
+        @include search;
+        @include table;
+        @include tab;
+    }
+    .edit-container {
+        @include search;
+        @include table;
+    }
+}
